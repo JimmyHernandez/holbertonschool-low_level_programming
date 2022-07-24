@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - Entry Point
- * Return: (0).
- *
+ *Main - Entry Point
+ *Return: (0).
  */
 int main(void)
 {
@@ -16,15 +15,18 @@ int main(void)
 	
 	if (last > 5)
 	{
-		printf("Last digit of %i is %i and is greater than 5\n",n , last);
+		printf("Last digit of %i is %i and is greater than 5\n", n, last);
 	}
+
 	if (last == 0)
 	{
 		printf("Last digit of %i is %i and is 0\n", n, last);
 	}
-	if (last < 6 && last > 0)
+
+	if (last < 6 && last != 0)
 	{
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
 	}
+
 	return (0);
 }
