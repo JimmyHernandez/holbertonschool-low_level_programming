@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *Main - Entry Point
+ *Main- Entry Point
  *Return: (0).
  */
 int main(void)
