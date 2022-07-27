@@ -3,6 +3,7 @@
 * _isalpha: checks for alphabetic character
 *@c: input
 *Return: 1 alpha 0 success.
+*Description: this look for letters
 */
 int _isalpha(int c)
 {
