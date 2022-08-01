@@ -1,10 +1,7 @@
 #include "main.h"
 /**
- *
- * print_line - print lines
- *
+ *print_line - print lines
  *@n: input
- *
  */
 void print_line(int n)
 {
@@ -15,10 +12,9 @@ void print_line(int n)
 
 			_putchar('\n');
 		
-		for (i = 0 ; i <= n; i++)
-
+		for (i = 0 ; i < n; i++)
 		{
-			_putchar('_');
+		_putchar('_');
 		}
 	_putchar('\n');
 }
