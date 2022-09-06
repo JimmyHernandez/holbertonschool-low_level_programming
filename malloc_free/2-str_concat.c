@@ -21,9 +21,9 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	for (idx1 = 0; s1[idx1] != '\0'; idx1++)
-		{}
+		{	;	}
 	for (idx2 = 0; s2[idx2] != '\0'; idx2++)
-		{}
+		{	;	}
 
 	sum = idx1 + idx2;
 
