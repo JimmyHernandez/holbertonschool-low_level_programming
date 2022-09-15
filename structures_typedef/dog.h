@@ -7,6 +7,11 @@
  *@age: float
  *@owner: char pointer
  */
+/*Struct */
+/**
+ * dog_t - Typedef for struct dog.
+ **/
+typedef struct dog dog_t;
 
 struct dog
 {
