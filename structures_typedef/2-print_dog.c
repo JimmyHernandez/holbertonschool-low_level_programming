@@ -3,8 +3,8 @@
 /**
  * print_dog - Prints struct dog.
  * @d: Name of the struct data type.
- * Return: 0 (Success).
- **/
+ *Return: 0 (Success).
+ */
 void print_dog(struct dog *d)
 {
 	if (d)
