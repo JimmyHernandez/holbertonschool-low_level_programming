@@ -2,10 +2,10 @@
 #include <stdlib.h>
 /**
  * new_dog - Creates a new struct dog
- * @name: Character for dog's name.
- * @age: Floating variable for dog's age.
- * @owner: Character for dog's owner.
- * Return: DogePoint (Success)
+ *@name: Character for dog's name.
+ *@age: Floating variable for dog's age.
+ *@owner: Character for dog's owner.
+ *Return: DogePoint (Success)
  **/
 dog_t *new_dog(char *name, float age, char *owner)
 {
