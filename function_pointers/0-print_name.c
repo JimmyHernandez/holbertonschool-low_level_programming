@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 /**
- *@name: name input
+ * print_name - entry point 
+ * @name: name input
  *
  *@f:the function to use
  *
@@ -11,7 +12,9 @@ void print_name(char *name, void (*f)(char *))
 		{
 			return;
 		}
-		
-		f(name);
+	else {
 
+		f(name);
+	}
+		
 }
