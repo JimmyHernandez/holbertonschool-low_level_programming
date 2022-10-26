@@ -4,6 +4,7 @@
  *@head: head of the list
  *@idx: index of the list
  *@n: int data
+ *Return: new node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
