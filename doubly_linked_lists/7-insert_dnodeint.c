@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
  *insert_dnodeint_at_index - insert new node
- *@head: head of the list
+ *@h: head of the list
  *@idx: index of the list
  *@n: int data
  *Return: new node
  */
-dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	unsigned int i;
 	dlistint_t *newNode, *newH;
