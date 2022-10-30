@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *print_listint - print list of numbers
+ *print_dlistint - print list of numbers
  *@h: head
  *Return: idx.
  */
