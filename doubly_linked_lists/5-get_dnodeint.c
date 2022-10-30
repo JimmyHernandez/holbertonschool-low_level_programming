@@ -1,17 +1,20 @@
 #include "lists.h"
 /**
- *free_dlistint2 - Frees a list and sets the head to NULL
- *@head: Head of the list
- **/
-void free_dlistint2(dlistint_t **head)
+ * get_dnodeint_at_index - show a choosen node
+ *@head: the head of the list.
+ *@index: the index to be printed.
+ *Return: head.
+ */
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint_t *tmp;
+	unsigned int node;
 
-	while (head && *head)
+
+	for (node = 0; node < index && head != NULL; node++)
 	{
-		tmp = *head;
-		*head = (*head)->next;
-		free(tmp);
+		head = head->next;
 	}
+
+	return (head);
 
 }
