@@ -10,14 +10,14 @@ int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd, rewtr, buffer = strlen(text_content);
 
-	fd = open (filename, O_WRONLY | O_APPEND);
+	fd = open(filename, O_WRONLY | O_APPEND | O_TRUNC);
 
 	if (fd == -1)
 	{
 		return (-1);
 	}
 
-	rewtr = write (fd, text_content, buffer);
+	rewtr = write(fd, text_content, buffer);
 
 	if (rewtr == -1)
 	{
