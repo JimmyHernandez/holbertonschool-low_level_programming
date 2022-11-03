@@ -12,7 +12,7 @@ int create_file(const char *filename, char *text_content)
 
 	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 	rewrt = write(fd, text_content, buffer);
-	
+
 	if (filename == NULL)
 	{
 		return (-1);
@@ -33,7 +33,6 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	
 	close(fd);
 	return (1);
 }
