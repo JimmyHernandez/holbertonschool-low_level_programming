@@ -7,8 +7,7 @@
  * @value: value to store
  * Return: head of the hash
  */
-hash_node_t *add_n_hash(hash_node_t **head, const char *key,
-		const char *value)
+hash_node_t *add_n_hash(hash_node_t **head, const char *key, const char *value)
 {
 	hash_node_t *tmp;
 
